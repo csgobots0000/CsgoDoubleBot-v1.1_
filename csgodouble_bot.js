@@ -23,28 +23,27 @@ function rolled()
 function one()
 {
 	//currentBetAmount=wonLastRoll()?2*currentBetAmount:initialBetAmount
-	
+	currentBetAmount=initialBetAmount
 	if(lastBetColor=="red")
 	{
 		betColor='black'
 	}
 	else
 	{
+		
 		betColor='red'
 	}
 }
 function two()
 {
 	//currentBetAmount=wonLastRoll()?initialBetAmount:2*currentBetAmount
-	
-		if(lastBetColor=="red")
+	currentBetAmount=2*currentBetAmount
+	if(lastBetColor=="red")
 	{	
-		currentBetAmount=2*currentBetAmount
 		betColor='black'
 	}
 	else
 	{
-		currentBetAmount+2*currentBetAmount
 		betColor='red'
 	}
 }
