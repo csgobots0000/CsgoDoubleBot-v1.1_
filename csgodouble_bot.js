@@ -1,6 +1,6 @@
 //////////////////////////////
 var initialBetAmount = 1;   //
-var mode = 'martingale';    // 
+var mode = '1';             // 1 or 2(1= red-black, red-black same coins number, 2= red-black, red-black, 2x coins all the time)
 var betColor = 'red';       // 
 //////////////////////////////
 
@@ -18,16 +18,24 @@ function printInfo()
 }
 function rolled()
 {
-	return"anti-martingale"===mode?void antiMartingale():(martingale(),void currentRollNumber++)
+	return"1"===mode?void one():(one(),void currentRollNumber++)
 }
-function antiMartingale()
+function one()
 {
-	currentBetAmount=wonLastRoll()?2*currentBetAmount:initialBetAmount
+	//currentBetAmount=wonLastRoll()?2*currentBetAmount:initialBetAmount
+	if(lastBetColor=="red")
+	{
+		betColor="black"
+	}
+	else
+	{
+		betColor="red"
+	}
 }
-function martingale()
+/*function two()
 {
 	currentBetAmount=wonLastRoll()?initialBetAmount:2*currentBetAmount
-}
+}*/
 function bet()
 {
 	checkBalance()&&(setBetAmount(currentBetAmount),setTimeout(placeBet,50))
