@@ -18,24 +18,37 @@ function printInfo()
 }
 function rolled()
 {
-	return"1"===mode?void one():(one(),void currentRollNumber++)
+	return"1"===mode?void one():(two(),void currentRollNumber++)
 }
 function one()
 {
 	//currentBetAmount=wonLastRoll()?2*currentBetAmount:initialBetAmount
+	
 	if(lastBetColor=="red")
 	{
-		betColor="black"
+		betColor='black'
 	}
 	else
 	{
-		betColor="red"
+		betColor='red'
 	}
 }
-/*function two()
+function two()
 {
-	currentBetAmount=wonLastRoll()?initialBetAmount:2*currentBetAmount
-}*/
+	//currentBetAmount=wonLastRoll()?initialBetAmount:2*currentBetAmount
+	
+		if(lastBetColor=="red")
+	{	
+		currentBetAmount=2*currentBetAmount
+		betColor='black'
+	}
+	else
+	{
+		currentBetAmount+2*currentBetAmount
+		betColor='red'
+	}
+}
+
 function bet()
 {
 	checkBalance()&&(setBetAmount(currentBetAmount),setTimeout(placeBet,50))
