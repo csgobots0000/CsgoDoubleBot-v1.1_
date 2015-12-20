@@ -5,7 +5,10 @@ It's working like:<br>
 1= red-black, red-black same number of coins.<br>
 2= red-black red-black and 2*number of coins.<br>
 
-Other bot (red if win 2*coins, if lost black if lost red etc) won't be shared here (just ask me about it if you really want get it: http://steamcommunity.com/id/asdfesdieo/)
+#Other bot<br< 
+bet red if win 2*coins,if lost black if lost red etc<br>
+won't be shared here <br>
+(just ask me about it if you really want get it: http://steamcommunity.com/id/asdfesdieo/)
 
 CS:GO Double Bot (randmize red-black, red-black)
 # How to run it.<br>
