@@ -8,3 +8,9 @@ It's working like:<br>
 Other bot (red if win 2*coins, if lost black if lost red etc) won't be shared here (just ask me about it if you really want get it: http://steamcommunity.com/id/asdfesdieo/)
 
 CS:GO Double Bot (randmize red-black, red-black)
+# How to run it.<br>
+1. Copy the code.<br>
+2. Go to csgodouble.com<br>
+3. Press CTRL+SHIFT+J.<br>
+4. Paste this code to console.<br>
+5. Press delte.<br>
