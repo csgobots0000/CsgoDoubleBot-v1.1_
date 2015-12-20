@@ -1,4 +1,5 @@
-//////////////////////////////
+//2015 HoffiPL CSGODOUBLEBOT based on https://gist.github.com/williamoliveira/47ab5126448c5a13d57d
+////////////CONFING
 var initialBetAmount = 1;   //
 var mode = '1';             // 1 or 2(1= red-black, red-black same coins number, 2= red-black, red-black, 2x coins all the time)
 var betColor = 'red';       // 
