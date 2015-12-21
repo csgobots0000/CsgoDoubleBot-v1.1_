@@ -7,7 +7,7 @@ It's working like:<br>
 #Your Own bot?<br>
 If you really want to get your own bot<br>
 Write to me on steam, you will say me system of this bot betting<br>
-And i'ww write it.<br>
+And i'll write it.<br>
 http://steamcommunity.com/profiles/76561198146424151
 
 CS:GO Double Bot (randmize red-black, red-black)
