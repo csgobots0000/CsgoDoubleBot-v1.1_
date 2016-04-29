@@ -36,7 +36,7 @@ function one()
 	}
 }
 function two()
-{
+{f
 	//currentBetAmount=wonLastRoll()?initialBetAmount:2*currentBetAmount
 	currentBetAmount=2*currentBetAmount
 	if(lastBetColor=="red")
